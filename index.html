@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Animations</title>
+    <link href = "styles.css" rel="stylesheet" type = "text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <img id = "mandrake" src = "mandrake.png">
+    <div class = "flex-container">
+        <div id = "container">
+            <div id = "controls">
+                <p>Play Animation:</p>
+                <input type = "radio" name = "animation" id = "all" checked/>
+                <label for = "all">All</label>   <br/>
+                <input type = "radio" name = "animation" id = "grow" checked/>
+                <label for = "all">Grow</label> <br/>
+                <input type = "radio" name = "animation" id = "wink" checked/>
+                <label for = "all">Wink</label> <br/>
+                <input type = "radio" name = "animation" id = "float" checked/>
+                <label for = "all">Float</label> <br/>
+                <input type = "radio" name = "animation" id = "hide" checked/>
+                <label for = "all">Hide</label> <br/>
+                
+            </div>
+            <canvas id = "canvas"></canvas>             
+        </div>       
+        
+    </div>
+    <script src = "canvas.js"></script>
+
+    </body>
+</html>

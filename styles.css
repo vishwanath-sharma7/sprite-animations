@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+#mandrake {
+    display:none;
+}
+
+canvas{ 
+border:1px solid black;
+box-shadow: inset 5px 5px 5px black;
+
+}
+
+#container{
+    font-family: 'Bangers', cursive;
+    border:1px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.flex-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#controls > p{
+    font-size: 60px;
+    margin-bottom: 30px;
+   
+}
+
+#controls {
+    font-size: 30px;
+    padding: 30px;
+    line-height: 60px;
+}
