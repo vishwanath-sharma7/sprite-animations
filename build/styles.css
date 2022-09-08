@@ -3,24 +3,30 @@
     padding:0;
     box-sizing:border-box;
     
+    
 }
 
 #mandrake {
     display:none;
+
 }
+body{
+    background: gray;
+}
+
+
 
 canvas{ 
 border:1px solid black;
-box-shadow: inset 5px 5px 5px black;
+box-shadow: inset 5px 5px 50px black;
 background-image : url('https://www.frankslaboratory.co.uk/downloads/105/105_mushroom_background.png');
-background-size: 500px 500px;
+background-size: 500px 510px;
 background-repeat: no-repeat;
 
 }
 
 #container{
     font-family: 'Bangers', cursive;
-    border:1px solid black;
     display: flex;
     /* flex-direction: column; */
     padding: 20px;
@@ -31,8 +37,12 @@ background-repeat: no-repeat;
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    border: 5px solid black;
+    position: absolute;
+    top:15%;
+    left:20%;
+    background: #4C4C4C;
+
     
 }
 
@@ -47,3 +57,5 @@ background-repeat: no-repeat;
     padding: 30px;
     line-height: 60px;
 }
+
+
